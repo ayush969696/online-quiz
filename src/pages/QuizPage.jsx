@@ -26,7 +26,7 @@ const QuizPage = () => {
             <button
               key={index}
               onClick={() => setSelectedQuiz(quiz)}
-              className="block mb-4 text-blue-600 hover:underline"
+              className="block mb-4 border-2 px-8 py-3 border-orange-500 hover:bg-orange-500 transition duration-500 ease-in-out hover:scale-105 hover:text-white"
             >
               {quiz.title}
             </button>
